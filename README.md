@@ -7,5 +7,4 @@ cd fastify-swagger
 npm i
 npm run dev 
 
-### Now go to your browser and enter this url 
-http:localhost:3000/docs to view Swagger UI
+### [Click Here](http:localhost:3000/docs) to view Swagger UI
