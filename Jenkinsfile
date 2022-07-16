@@ -6,7 +6,8 @@ pipeline {
   stages {    
     stage('Cloning Git') {
       steps {
-        git 'https://github.com/dlyaswanth/Fastify-Swagger'
+        git branch: 'main',
+        url: 'https://github.com/dlyaswanth/Fastify-Swagger.git'
       }
     }        
     stage('Install dependencies') {
