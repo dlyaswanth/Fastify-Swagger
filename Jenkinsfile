@@ -11,7 +11,7 @@ pipeline {
     }        
     stage('Install dependencies') {
       steps {
-        sh 'npm i'
+        sh 'npm i --force'
       }
     }     
     stage('Test') {
