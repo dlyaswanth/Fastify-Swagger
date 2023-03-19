@@ -4,3 +4,4 @@ COPY package.json /app
 RUN npm i --force
 COPY . /app
 CMD ["npm", "start"]
+EXPOSE 3000
